@@ -3,7 +3,7 @@
 
 ![img](threat.png)
 
-(a collaborative effort by @alexcpsec & @hrbrmstr)
+(a collaborative effort by @drdisklab & @habib_karatas)
 
 Why should security vendors be the only ones allowed to use silly, animated visualizations to "compensate"? Now, **you** can have your very own IP attack map that's just as useful as everyone else's.
 
@@ -44,7 +44,7 @@ Finally, you can proudly display your organization's name by setting `org_name=M
 
 ### Drill Mode
 
-We had an interesting request to be able to use Threat Map in a IR "drill" setting, so there's now a "drill mode" where you can specify a latitude &amp; longitude to be the destination for the attacks. Right now, all attacks go there, but we may add an option to specify a percentage of attacks that should go there. You _must_ use `drill_mode=1&lat=##.####&lon=##.####` for this to work, like: `drill_mode=1&lat=43.2672&lon=-70.8617` (which would focus all attacks near @hrbrmstr). Remember, you can specify your organization name there, too. [Here's an example](http://ocularwarfare.com/index.html?org_name=hrbrmstr&drill_mode=1&lat=43.2672&lon=-70.8617).
+We had an interesting request to be able to use Threat Map in a IR "drill" setting, so there's now a "drill mode" where you can specify a latitude &amp; longitude to be the destination for the attacks. Right now, all attacks go there, but we may add an option to specify a percentage of attacks that should go there. You _must_ use `drill_mode=1&lat=##.####&lon=##.####` for this to work, like: `drill_mode=1&lat=43.2672&lon=-70.8617` (which would focus all attacks near @habib_karatas). Remember, you can specify your organization name there, too. 
 
 
 
