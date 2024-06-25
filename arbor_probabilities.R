@@ -19,7 +19,7 @@ attacks$FIPS10 <- unlist(str_extract(attacks$country, "([A-Z]{2})"))
 attacks$count <- btod(attacks$count)
 attacks$pct <- sprintf("%0.3f", attacks$count / sum(attacks$count))
 
-cc_tab <- data.frame(read.csv("~/Development/github/pewpew/country_centroids_primary.csv", sep="\t", header=TRUE, stringsAsFactors=FALSE))
+cc_tab <- data.frame(read.csv("~/Development/github/threat/country_centroids_primary.csv", sep="\t", header=TRUE, stringsAsFactors=FALSE))
 cc_tab$idx <- as.numeric(rownames(cc_tab)) - 1
 
 attacks <- merge(cc_tab[,c(9,14)], attacks, by.x="FIPS10", by.y="FIPS10")
